@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:/Users/Hp/OneDrive/Desktop/prodigy_4/image1.png') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-color: hsla(305, 47%, 84%, 0.347); /* Light pink background with image overlay */
+    color: #000; /* Black text */
+     /* Apply blur to the background image */
+}
+
+header {
+    background-color: #121212; /* Black background for header */
+    color: hsla(305, 66%, 75%, 0.347); /* Light pink text */
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    background-color: #000; /* Black background for navbar */
+    padding: 0.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Light pink text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    margin: 0.5em 0;
+    color: white; /* White headings */
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+    color: #000; /* Black headings */
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px; /* Move the image a bit to the left */
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #121212; /* Black background for footer */
+    color: hsla(305, 47%, 84%, 0.347); /* Light pink text */
+    text-align: center;
+    padding: 0.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+
+
+button:hover {
+    background-color: #f5efef; /* Slightly darker black on hover */
+}
+
+.project-content {
+    display: none; /* Initially hide project content */
+}
+
+.project-btn {
+    background: none; /* Remove default button background */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    color: hsla(305, 85%, 3%, 0.986); /* Light pink text */
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.project-btn:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+.project-content-visible {
+    display: block; /* Show project content when class is applied */
+}
+/* Center the main content */
+main.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust height as needed */
+    padding: 0.5; /* Add padding for better spacing */
+    margin-top:0.2px;
+}
+
+/* Style the contact form */
+#contact-form {
+    max-width: 400px; /* Adjust width as needed */
+    width: 100%;
+}
+
+#contact-form h2 {
+    text-align: center;
+}
+
+#contact-form form {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #333;
+}
